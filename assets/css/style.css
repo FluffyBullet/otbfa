@@ -1,0 +1,54 @@
+body{
+    background-image: url("../images/splitbackground.jpg");
+    background-repeat:no-repeat;
+    background-size:100vw;
+    color:white;
+    margin:0 auto;
+    align-items:center;
+}
+
+#replay{
+    height:30px;
+    font-weight:600;
+    position:absolute;
+    top:23vw;
+    left:40vw;
+}
+
+#p1 {
+    position:absolute;
+    top:8vw;
+    left:42vw;
+    
+}
+.center {
+    display:flex;
+    justify-content:center;
+}
+#centralfix {
+    position:absolute;
+    left:45vw;
+    bottom:20vw;
+}
+#p2 {
+    color:rgb(245, 75, 75);
+    position:absolute;
+    left:21vw;
+    top:26vw; 
+}
+
+#create {
+    color:slategray;
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    bottom:5px;
+    left:40vw;
+    font-size:xx-large;
+    font-weight:600;
+}
+
+#container {
+    position:relative;
+    width:100vw;
+}
