@@ -1,0 +1,50 @@
+*{
+    margin:0 auto;
+    text-align:center;
+    padding:0;
+    font-family:'Libre Baskervill', serif}
+body {
+    width:600px;
+    border:solid 2px black;
+}
+
+/* Header section for home page*/
+header img {
+    height:250px;
+}
+header {
+    background-color:green;
+    height:300px;
+    position:relative;
+}
+
+ul li {
+    display:inline-block;
+    padding: 0 35px;
+    font-size:larger;
+}
+
+ul li:hover {
+    background: linear-gradient(top, rgba(0,0,0,0), rgb(21, 124, 0));
+}
+ul li a {
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+}
+/*End of header section styling*/
+h1 {
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+/* Banner section of ball in play */
+#banner {
+    background-image: url("../images/challenged_ball.jpg");
+    height:200px;
+    background-repeat:no-repeat;
+    position:center top;
+    width:95%;
+}
+
+/* About OTB FA*/
