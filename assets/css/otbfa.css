@@ -39,15 +39,68 @@ ul li:hover {
 /*End of header section styling*/
 h1 {
     font-size: 60px;
-    margin: 50px 0;
+    margin: 50px auto;
+    display:flex;
+    justify-content:center; 
 }
+/* Bouncing header text*/
+h1 span{
+    margin:0;
+    justify-content:center;
+}
+.bouncing-text{
+    position:relative;
+    display:flex
+}
+@keyframes bounce {
+    0% {transform: scale(1,1) translateY(0);}
+    10% {transform: scale(1.1,.9) translateY(0)}
+    30% {transform: scale(.9,1.1) translateY(-55px);}
+    50% {transform: scale(1,05,.95) translateY(0);}
+    58% {transform: scale(1,1) translateY(-7px);}
+    65% {transform: scale(1,1) translateY(0);}
+    100% {transform: scale(1,1) translateY(0)}
+}
+.o {
+    animation: bounce 1s ease;
+    animation-iteration-count:2;
+}
+.n {
+    animation: bounce 1s ease 2 .1s;
+}
+.t {
+    animation: bounce 1s ease 2 .2s;
+}
+.h {
+    animation: bounce 1s ease 2 .3s;
+}
+.e {
+    animation: bounce 1s ease 2 .4s;
+}
+.b {
+    animation: bounce 1s ease 2 .5s;
+}
+.a {
+    animation: bounce 1s ease 2 .6s;
+}
+.l {
+    animation: bounce 1s ease 2 .7s;
+}
+.ll {
+    animation: bounce 1s ease 2 .8s;
+}
+.fa {
+    animation: bounce 1s ease 2 .9s;
+}
+
 
 /* Banner section of ball in play */
 #banner {
-    background-image: url("../images/challenged_ball.jpg");
+    background-image: url("../images/kids_football.jpg");
     height:200px;
     background-repeat:no-repeat;
     position:center top;
+    top:55%;
     width:95%;
 }
 
