@@ -14,7 +14,7 @@ header img {
 }
 header {
     background-color:green;
-    height:300px;
+    height:283px;
     position:relative;
 }
 
@@ -22,15 +22,19 @@ ul li {
     display:inline-block;
     padding: 0 35px;
     font-size:larger;
+    align-items:baseline;
 }
 
-ul li:hover {
-    background: linear-gradient(top, rgba(0,0,0,0), rgb(21, 124, 0));
-}
 ul li a {
     color:white;
     text-decoration:none;
     font-size:25px;
+}
+ul li:hover {
+    background-color:rgb(53, 180, 53);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
 }
 /*End of header section styling*/
 h1 {
